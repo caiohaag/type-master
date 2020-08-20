@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Type Master</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css">    
+    <link rel="stylesheet" href="css/libs/selectize.default.css">
+    <link rel="stylesheet" href="css/libs/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1 class="titulo-topo center">Type Master</h1>
+		<div class="select-usuarios center">
+	    	<h5>Nome do jogador:</h5>
+	    	<select id="usuarios">
+	    	</select>
+	    </div>
+	    <div id="carregando" class="center">
+	    	<img id="spinner2" src="img/spinner.gif" alt="carregando-usuários">
+	    </div>
+		<p class="center">Teste a sua velocidade de digitação! Digite a frase abaixo antes do tempo acabar, ou clique no botão azul para selecionar outra frase aleatória.</p>
+		<hr>
+
+	    <p class="frase center">Carregando frase...</p>
+
+	    <div class="center">
+	    	<img id="spinner" src="img/spinner.gif" alt="carregando-frase">
+	    	<p id="erro">
+	    		Ocorreu um erro, por favor, tente novamente.
+	    	</p>
+	    </div>
+
+	    <ul class="informacoes center">
+	    	<li>
+	    		<i class="small material-icons icones">description</i>
+	    		<span id="total">0</span> palavras
+	    	</li>
+	    	<li>
+	    		<i class="small material-icons icones">query_builder</i>
+	    		<span id="tempo-digitacao">0</span> segundos
+	    	</li>
+	    </ul>
+
+	    <textarea class="campo-digitacao borda-preta tooltip2" rows="8" cols="40" placeholder="Clique aqui para começar a digitar" title="Campo de digitação"></textarea>
+
+	    <div class="botoes">
+	    	<a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red disabled tooltip" title="Reiniciar o jogo">
+	    		<i class="material-icons">restore</i>
+	    	</a>
+	    	<a id="botao-placar" class="btn-floating btn-large waves-effect waves-light green tooltip" title="Exibir/Esconder o placar">
+	    		<i class="material-icons">assignment</i>
+	    	</a>
+	    	<a id="botao-frase" class="btn-floating btn-large waves-effect waves-light blue tooltip" title="Mudar para frase aleatória">
+	    		<i class="material-icons">shuffle</i>
+	    	</a>
+	    	<a id="botao-frase-id" class="btn-floating btn-large waves-effect waves-light cyan tooltip" title="Mudar frase pelo ID (utilize o campo à direita)">
+	    		<i class="material-icons">search</i>
+	    	</a>
+	    	<input type="number" id="frase-id" min=0 value="0">
+	    	
+	    </div>
+
+	    <ul class="center">
+	    	<li><span id="contador-caracteres">0</span> caracteres</li>
+	    	<li><span id="contador-palavras">0</span> palavras</li>
+	    </ul>		
+
+	    <section class="placar">
+	    	<h3 class="center">Placar</h3>
+	    	<table class="centered bordered">
+	    		<thead>
+	    			<tr>
+	    				<th>Nome</th>
+	    				<th>Nº de palavras</th>
+	    				<th>Remover</th>
+	    			</tr>
+	    		</thead>
+	    		<tbody>	
+	    		</tbody>
+	    	</table>
+	    </section>
+	</div>
+    
+
+    <script src="js/jquery.js"></script>    
+    <script src="js/selectize.js"></script>
+    <script src="js/frase.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/placar.js"></script>
+    <script src="js/tooltipster.bundle.min.js"></script>
+
+</body>
+</html>

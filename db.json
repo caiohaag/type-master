@@ -1,0 +1,76 @@
+{
+  "frases": [
+    {
+      "id": 0,
+      "texto": "Tantos bares, em tantas cidades em todo o mundo, e ela tinha que entrar logo no meu?",
+      "tempo": 17
+    },
+    {
+      "id": 1,
+      "texto": "A vida é como uma caixa de chocolates. Você nunca sabe o que vai encontrar.",
+      "tempo": 10
+    },
+    {
+      "id": 2,
+      "texto": "Grandes poderes trazem grandes responsabilidades.",
+      "tempo": 7
+    },
+    {
+      "id": 3,
+      "texto": "Mantenha os seus amigos por perto, e os inimigos ainda mais perto.",
+      "tempo": 9
+    },
+    {
+      "id": 4,
+      "texto": "Ou você morre herói, ou vive o suficiente para se tornar o vilão.",
+      "tempo": 9
+    },
+    {
+      "id": 5,
+      "texto": "Que a força esteja com você!",
+      "tempo": 5
+    },
+    {
+      "id": 6,
+      "texto": "É preciso muito audácia para enfrentarmos os nossos inimigos, mas igual audácia para defendermos os nossos amigos.",
+      "tempo": 21
+    },
+    {
+      "id": 7,
+      "texto": "O homem que não reconhece o seu passado não terá futuro.",
+      "tempo": 8
+    },
+    {
+      "id": 8,
+      "texto": "Às vezes a ideia mais simples faz a maior diferença.",
+      "tempo": 7
+    },
+    {
+      "id": 9,
+      "texto": "Tudo é uma versão de outra coisa.",
+      "tempo": 6
+    }
+  ],
+  "placar": [
+    {
+      "usuario": "Caio",
+      "pontos": "17",
+      "id": 2
+    },
+    {
+      "usuario": "Anemari",
+      "pontos": "400",
+      "id": 3
+    },
+    {
+      "usuario": "Luiza",
+      "pontos": "10",
+      "id": 4
+    },
+    {
+      "usuario": "Heidi",
+      "pontos": "10",
+      "id": 5
+    }
+  ]
+}

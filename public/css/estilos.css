@@ -1,0 +1,85 @@
+body {
+	overflow: scroll;
+}
+
+.titulo-topo {
+	font-family: 'Special Elite', cursive;
+	color: #0000cc;
+}
+
+.frase {
+	font-size: 20px;
+	text-align: left;
+}
+
+.campo-digitacao {
+	font-size: 20px;
+	height: 150px;	
+}
+
+.borda-preta {
+	border: 3px solid black;
+}
+
+.borda-verde {
+	border: 3px solid green;
+}
+
+.borda-vermelha {
+	border: 3px solid red;
+}
+
+.terminou {
+	background-color: lightgray;
+}
+
+.icones {
+	vertical-align: middle;
+}
+
+.btn-floating.disabled {
+    pointer-events: none;
+}
+
+.placar {
+	display: none;
+}
+
+.some {
+	display: none;
+}
+
+#erro {
+	color: red;
+	display: none;
+}
+
+#spinner {
+	display: none;
+}
+
+#frase-id {
+	width: 50px;
+	border: 1px solid black;
+	padding-left: 10px;
+}
+
+.select-usuarios{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h5 {
+	margin-right: 10px;
+}
+
+.selectize-input {
+	width: 150px;	
+	vertical-align: middle;
+}
+
+#usuarios{
+	display: block;
+}
+
